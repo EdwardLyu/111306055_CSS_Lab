@@ -1,0 +1,21 @@
+
+@media all {
+    body {
+       
+    }
+    
+}
+
+/* 在列印媒體下應用的樣式 */
+@media print {
+    body {
+        
+        font-size: 12pt;
+        color: black;
+        line-height: 1.5;
+    }    
+    /* 隱藏不需要列印的元素 */
+    .no-print {
+        display: none;
+    }
+}

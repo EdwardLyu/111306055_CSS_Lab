@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My first CSS stylesheet</title>
+    <style>
+        body {
+            color: white;
+            background-color: #333;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .navbar {
+            position: absolute;
+            top: 20em;
+            left: 2em;
+            width: 10em;
+        }
+
+        @media all {
+            /* Styles for all devices */
+        }
+
+        @media print {
+            /* Styles for print media */
+        }
+    </style>
+</head>
+<body color="white" background-color="#333" font-family="Arial, sans-serif">
+    <h1>My first style page</h1>
+    <p>This is the first paragraph.</p>
+    <p>This is the second paragraph.</p>
+    <p>This is the third paragraph.</p>
+
+    <ul class="navbar" position="absolute" top="20em" left="2em" width="10em">
+        <li><a href="#">Option 1</a></li>
+        <li><a href="#">Option 2</a></li>
+        <li><a href="#">Option 3</a></li>
+        <li><a href="#">Option 4</a></li>
+    </ul>
+
+    <select>
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+        <option value="option4">Option 4</option>
+    </select>
+</body>
+</html>
